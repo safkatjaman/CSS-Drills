@@ -1,1 +1,111 @@
-css
+body {
+      font-family: 'Yusei Magic', sans-serif;
+      background: lightgray;
+}
+
+h2, p, .readme-wrapper {
+      text-align: center;
+}
+
+a {
+      text-decoration: none;
+      color: black;
+}
+
+a:hover {
+      font-weight: 900;
+      color: rgb(252, 61, 124);
+}
+
+.span-class {
+      font-weight: 900;
+      color: rgb(255, 153, 0);
+}
+
+.boxes {
+      margin: 2em;
+      padding: 2em;
+      border: 3px solid rgb(255, 102, 0);
+      border-radius: 1em;
+      /* width: 30em;
+      height: 17em; */
+}
+
+#box1 {
+      background-color: rgb(5, 107, 102);
+}
+
+#box2 {
+      background-color:rgb(177, 60, 60);
+}
+
+#box3 {
+      background-color: rgb(110, 112, 5) ;
+}
+
+#box4 {
+      background-color: rgb(106, 16, 165);
+}
+
+/* .image-div {
+      width: 50px;
+      height: 50px;
+      border-radius: 50px;
+      background-color: dodgerblue;
+      position: relative;
+      left: 5em;
+      top: 3em;
+}
+ */
+.movie-name {
+      color: rgb(4, 102, 102);
+}
+
+.original {
+      color: rgb(134, 78, 9);
+}
+
+.additional {
+      color: goldenrod;
+}
+
+#rank1 {
+      color: blueviolet;
+}
+
+#rank2 {
+      color: crimson;
+}
+
+#rank3 {
+      color: darkslategray;
+}
+
+#rank4 {
+      color: darkgoldenrod;
+}
+
+#rank5 {
+      color: darkmagenta;
+}
+
+ul {
+      color: indianred;
+      list-style-type: none;
+      display: block;
+}
+
+.star {
+      color: indigo;
+}
+
+#wars {
+      color: maroon;
+}
+
+.list-div {
+      border: 2px solid black;
+      border-radius: 1em;
+      margin: 1em;
+      text-align: center;
+}
